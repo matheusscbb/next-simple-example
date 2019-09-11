@@ -48,8 +48,9 @@ $font-size: 50px;
 Adicione ao `pages/index.js` algo como o exemplo:
 ```
 import "../styles.scss"
-```
+  
 export default () => <div className="example">Hello World!</div>
+```
 
 *Mais informações em [next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)*
 
