@@ -1,4 +1,10 @@
+# React
 node_modules
-out
 package-lock.json
+
+# Next.js
+out
+.next/
+
+# VSCode
 .DS_Store

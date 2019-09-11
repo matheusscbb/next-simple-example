@@ -1,6 +1,7 @@
 const fetch = require('isomorphic-unfetch');
+const withSass = require('@zeit/next-sass');
 
-module.exports = {
+module.exports = withSass({
   exportPathMap: async function() {
     const paths = {
       '/': { page: '/' },
@@ -16,4 +17,4 @@ module.exports = {
 
     return paths;
   }
-};
+});
